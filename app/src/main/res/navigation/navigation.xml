@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/foodDiaryFragment">
+    <!--    app:startDestination="@id/mealDiaryFragment">-->
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/mealDiaryFragment"-->
+    <!--        android:name="com.example.android.trackmysleepquality.food.MealDiaryFragment"-->
+    <!--        android:label="fragment_meal_diary"-->
+    <!--        tools:layout="@layout/fragment_meal_diary" />-->
+
+    <fragment
+        android:id="@+id/foodDatabaseFragment"
+        android:name="com.example.android.trackmysleepquality.foodDB.FoodDatabaseFragment"
+        android:label="fragment_food_database"
+        tools:layout="@layout/fragment_food_database">
+        <action
+            android:id="@+id/action_foodDatabaseFragment_to_addFoodFragment"
+            app:destination="@id/addFoodFragment" />
+        <action
+            android:id="@+id/action_foodDatabaseFragment_to_foodDiaryFragment"
+            app:destination="@id/foodDiaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFoodFragment"
+        android:name="com.example.android.trackmysleepquality.addFood.AddFoodFragment"
+        android:label="AddFoodFragment" />
+    <fragment
+        android:id="@+id/foodDiaryFragment"
+        android:name="com.example.android.trackmysleepquality.meal.FoodDiaryFragment"
+        android:label="FoodDiaryFragment">
+        <action
+            android:id="@+id/action_foodDiaryFragment_to_foodDatabaseFragment"
+            app:destination="@id/foodDatabaseFragment" />
+        <action
+            android:id="@+id/action_foodDiaryFragment_to_editMealFragment"
+            app:destination="@id/editMealFragment" />
+        <action
+            android:id="@+id/action_foodDiaryFragment_to_editCaloriesFragment"
+            app:destination="@id/editCaloriesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editMealFragment"
+        android:name="com.example.android.trackmysleepquality.editMeal.EditMealFragment"
+        android:label="EditMealFragment">
+        <argument
+            android:name="mealId"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_editMealFragment_to_addMealFoodEntryFragment"
+            app:destination="@id/addMealFoodEntryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addMealFoodEntryFragment"
+        android:name="com.example.android.trackmysleepquality.addMealFoodEntry.AddMealFoodEntryFragment"
+        android:label="AddMealFoodEntryFragment">
+        <argument
+            android:name="mealEntryId"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/editCaloriesFragment"
+        android:name="com.example.android.trackmysleepquality.editCalories.EditCaloriesFragment"
+        android:label="EditCaloriesFragment" />
+
+
+</navigation>

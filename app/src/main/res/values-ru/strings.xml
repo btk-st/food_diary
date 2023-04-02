@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2018, The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <string name="app_name">Дневник Питания</string>
+    <string name="add_meal_button_text">Добавить прием пищи</string>
+    <string name="title_food_database">Еда</string>
+    <string name="btn_add_food">Добавить еду</string>
+    <string name="food_name_hint">Название</string>
+    <string name="food_quantity_hint">Порция</string>
+    <string name="food_calories_hint">Калории</string>
+    <string name="button_add">Добавить</string>
+    <string name="quantity_hint">Количество</string>
+    <string name="save_button_text">Сохранить</string>
+    <string name="to_food_database">Перейти в базу еды</string>
+    <string name="delete_button_text">Удалить прием пищи</string>
+    <string name="text_to_diary">На главный экран</string>
+    <string name="to_calories_edit_btn">Изменить дневую норму</string>
+    <string name="calories_label_text">Ваша дневная норма, ккал:</string>
+    <string name="delete_meal_entry_btn_text">Удалить запись</string>
+
+    <string name="today_calories">Сегодня вы съели <b>%1$d</b> ккал.</string>
+    <string name="daily_calories">Это ровно ваша дневная норма!</string>
+    <string name="calories_exceeded">Это на %1$d <b>больше</b>, чем ваша дневная норма.</string>
+    <string name="calories_remaining">Это на %1$d <b>меньше</b>, чем ваша дневная норма.</string>
+
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="day_before_yesterday">Позавчера</string>
+    <string name="in_preposition">в</string>
+</resources>

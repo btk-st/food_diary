@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2018, The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <string name="app_name">Food Diary</string>
+    <string name="add_meal_button_text">Add Meal</string>
+    <string name="title_food_database">Food</string>
+    <string name="btn_add_food">Add Food</string>
+    <string name="food_name_hint">Name</string>
+    <string name="food_quantity_hint">Serving Size</string>
+    <string name="food_calories_hint">Calories</string>
+    <string name="button_add">Add</string>
+    <string name="quantity_hint">Quantity</string>
+    <string name="save_button_text">Save</string>
+    <string name="to_food_database">Go to Food Database</string>
+    <string name="delete_button_text">Delete Meal Entry</string>
+    <string name="text_to_diary">Go to Home Screen</string>
+    <string name="to_calories_edit_btn">Edit Daily Calories</string>
+    <string name="calories_label_text">Your daily calories, kcal:</string>
+    <string name="delete_meal_entry_btn_text">Delete Entry</string>
+
+    <string name="today_calories">Today you ate <b>%1$d</b> kcal.</string>
+    <string name="daily_calories">This is exactly your daily norm!</string>
+    <string name="calories_exceeded">This is %1$d <b>more</b> than your daily norm.</string>
+    <string name="calories_remaining">This is %1$d <b>less</b> than your daily norm.</string>
+
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="day_before_yesterday">Day before yesterday</string>
+    <string name="in_preposition">in</string>
+</resources>
