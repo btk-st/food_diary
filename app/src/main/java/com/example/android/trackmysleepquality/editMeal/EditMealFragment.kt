@@ -5,16 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.navArgs
-import com.example.android.trackmysleepquality.R
 import com.example.android.trackmysleepquality.database.AppDatabase
 import com.example.android.trackmysleepquality.databinding.FragmentEditMealBinding
-import com.example.android.trackmysleepquality.foodDB.FoodDatabaseFragmentDirections
-import com.example.android.trackmysleepquality.foodDB.FoodDatabaseViewModel
-import com.example.android.trackmysleepquality.foodDB.FoodDatabaseViewModelFactory
 
 class EditMealFragment : Fragment() {
     private val args: EditMealFragmentArgs by navArgs()

@@ -1,7 +1,7 @@
 package com.example.android.trackmysleepquality.database
 
-import androidx.room.*
-import java.util.*
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 
 @Entity(tableName = "meal")
 data class Meal(

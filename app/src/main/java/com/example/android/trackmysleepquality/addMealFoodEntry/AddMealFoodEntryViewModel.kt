@@ -2,7 +2,6 @@ package com.example.android.trackmysleepquality.addMealFoodEntry
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
-import com.example.android.trackmysleepquality.database.MealFoodEntry
 import com.example.android.trackmysleepquality.database.MealFoodEntryDao
 import kotlinx.coroutines.*
 

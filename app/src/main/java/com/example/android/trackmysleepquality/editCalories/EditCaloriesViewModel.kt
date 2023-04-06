@@ -3,8 +3,6 @@ package com.example.android.trackmysleepquality.editCalories
 import android.app.Application
 import android.preference.PreferenceManager
 import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.LiveData
-import com.example.android.trackmysleepquality.database.FoodDao
 
 class EditCaloriesViewModel (application: Application) :
     AndroidViewModel(application) {

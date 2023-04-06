@@ -7,9 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import com.example.android.trackmysleepquality.database.Meal
 import com.example.android.trackmysleepquality.databinding.FragmentMealDiaryBinding
-import java.time.LocalTime
 
 class FoodDiaryFragment : Fragment() {
 

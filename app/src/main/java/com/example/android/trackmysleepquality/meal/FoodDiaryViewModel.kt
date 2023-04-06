@@ -3,14 +3,12 @@ package com.example.android.trackmysleepquality.meal;
 import android.app.Application
 import android.content.Context
 import android.preference.PreferenceManager
-import android.util.Log
-import androidx.lifecycle.*
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.LiveData
 import com.example.android.trackmysleepquality.R
-import com.example.android.trackmysleepquality.database.MealDao
 import com.example.android.trackmysleepquality.database.Meal
+import com.example.android.trackmysleepquality.database.MealDao
 import kotlinx.coroutines.*
-import java.time.LocalDate
-import java.time.ZoneOffset
 import java.util.*
 import kotlin.math.abs
 

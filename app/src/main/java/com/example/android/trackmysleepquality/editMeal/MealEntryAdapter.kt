@@ -1,6 +1,5 @@
 package com.example.android.trackmysleepquality.editMeal
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
@@ -8,12 +7,9 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.navigation.findNavController
-import androidx.recyclerview.widget.DiffUtil
-import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.android.trackmysleepquality.R
 import com.example.android.trackmysleepquality.database.Food
-import com.example.android.trackmysleepquality.database.FoodDao
 import com.example.android.trackmysleepquality.database.MealFoodEntry
 import com.example.android.trackmysleepquality.foodDB.TextItemViewHolder
 

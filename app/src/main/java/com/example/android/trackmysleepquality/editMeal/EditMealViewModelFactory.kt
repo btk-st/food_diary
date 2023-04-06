@@ -3,10 +3,8 @@ package com.example.android.trackmysleepquality.editMeal
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.android.trackmysleepquality.database.FoodDao
 import com.example.android.trackmysleepquality.database.MealDao
 import com.example.android.trackmysleepquality.database.MealFoodEntryDao
-import com.example.android.trackmysleepquality.foodDB.FoodDatabaseViewModel
 
 
 class EditMealViewModelFactory(

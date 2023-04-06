@@ -1,9 +1,6 @@
 package com.example.android.trackmysleepquality.addMealFoodEntry
 
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,7 +10,6 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.navArgs
-import com.example.android.trackmysleepquality.R
 import com.example.android.trackmysleepquality.database.AppDatabase
 import com.example.android.trackmysleepquality.databinding.FragmentAddMealFoodEntryBinding
 

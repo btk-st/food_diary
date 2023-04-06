@@ -2,7 +2,6 @@ package com.example.android.trackmysleepquality.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.example.android.trackmysleepquality.database.Food
 
 @Dao
 interface FoodDao {
